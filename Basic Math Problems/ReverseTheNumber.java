@@ -22,5 +22,6 @@ public class ReverseTheNumber {
         Scanner sc = new Scanner(System.in);
         long n = sc.nextLong();
         System.out.print(reverseNumber(n));
+        sc.close();
     }
 }
