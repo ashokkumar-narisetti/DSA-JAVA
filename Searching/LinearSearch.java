@@ -6,6 +6,8 @@ Approach :
   - Compare each element with the target.
   - If found, return its index.
   - If traversal ends, return -1.
+  Time Complexity = O(n).
+  Space Complexity = O(1).
  */
 public class LinearSearch {
     public static int linearSearch(int[] arr,int target){
