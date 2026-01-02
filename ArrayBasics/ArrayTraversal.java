@@ -1,4 +1,18 @@
 import java.util.*;
+/*
+Problem = Find the Sum, Min and Max element in array
+Approach:
+ - Create a helper class to store sum, min, and max.
+ - Initialize sum as 0, and set min and max to the first array element.
+ - Traverse the array once.
+ - During traversal:
+    Add each element to sum.
+    Update min if the current element is smaller.
+    Update max if the current element is larger.
+ - Return the result object containing all values.
+ Time Complexity = O(n).
+ Space Complexity = O(1);
+*/
 class ArrayResult{
     int sum, min,max;
 }
